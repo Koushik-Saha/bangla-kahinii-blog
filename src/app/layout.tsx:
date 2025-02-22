@@ -1,0 +1,13 @@
+import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
+import "@/app/globals.css";
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="min-h-screen bg-gray-100">
+      <Header />
+      <Navbar />
+      <main className="container mx-auto p-4">{children}</main>
+    </div>
+  );
+}
