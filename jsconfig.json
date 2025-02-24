@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./tailwind-nextjs-starter-blog",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/data/*": ["data/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/css/*": ["css/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
+    }
+  }
+}
